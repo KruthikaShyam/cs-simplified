@@ -1,6 +1,6 @@
 # CS Simplified launch site
 
-A beginner-editable, dependency-free static website for **CS Simplified — IB & IGCSE Computer Science by Kruthika Shyam Sundar**. It is designed for GitHub Pages and includes no third-party libraries, trackers, or build process.
+A beginner-editable, dependency-free static website for **CS Simplified — IB & IGCSE Computer Science resources**. It is designed for GitHub Pages and includes no third-party libraries, trackers, or build process.
 
 ## Local preview
 
@@ -20,7 +20,7 @@ This repository includes `.github/workflows/deploy-pages.yml`. Every push to `ma
 2. Under **Build and deployment**, select **GitHub Actions** as the source.
 3. Push or merge this site's files into the repository's `main` branch.
 4. Open the **Actions** tab and wait for the **Deploy static content to Pages** workflow to finish.
-5. The repository site will normally be available at `https://kruthikashyam.github.io/cs-simplified/`.
+5. The site URL is shown in the completed deployment details. Its address is based on the GitHub account or organization that owns the repository; use a dedicated public account if the owner name should not be public.
 
 If the repository is private, GitHub Pages availability depends on the repository owner's GitHub plan. The workflow uses the required `pages: write` and `id-token: write` permissions.
 
@@ -30,13 +30,13 @@ Search for `REPLACE_WITH` in `index.html` and replace every placeholder:
 
 | Placeholder | What to replace it with |
 | --- | --- |
-| `https://www.youtube.com/@REPLACE_WITH_CHANNEL_URL` | The public URL for **Kruthikashyamsundar’s CS Simplified** YouTube channel. It is used in the resource card and footer. |
+| `https://www.youtube.com/@REPLACE_WITH_CHANNEL_URL` | The public URL for the CS Simplified YouTube channel. It is used in the resource card and footer. |
 | `https://example.com/REPLACE_WITH_FLASHCARD_DOWNLOAD_URL.pptx` | The public direct download URL for the free Flashcard PowerPoint. Host the `.pptx` on a service that permits public downloads. |
 | `https://example.com/REPLACE_WITH_STORE_URL` | The public checkout/store URL for paid matching worksheets. |
-| `mailto:hello@example.com` | The public business email address for tutoring and enquiries. |
-| Instagram and LinkedIn example URLs | The relevant public social profile URLs, or remove those links if they are not used. |
+| `mailto:hello@example.com` | A public business email address for tutoring and enquiries, or remove the contact button until one is ready. |
+| Instagram and LinkedIn example URLs | The relevant public CS Simplified social profile URLs, or remove those links if they are not used. |
 
-The educational copy, sections, colors, and layout are all in `index.html` and `styles.css`. `script.js` only provides the mobile navigation and automatic footer year.
+The educational copy, sections, colors, and layout are all in `index.html` and `styles.css`. `script.js` only provides the mobile navigation and automatic footer year. Keep the public files privacy-safe: use the CS Simplified brand and generic contact/social accounts instead of personal names, personal handles, school names, or private email addresses.
 
 ## File structure
 
